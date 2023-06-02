@@ -174,8 +174,23 @@ cursor: pointer;
 
 /*------------sider page css-----------*/
 .home  .swiper .swiper-wrapper .swiper-slide img{
+  position: relative;
   margin-top: 8.5rem;
 }
+
+.home  .swiper .swiper-wrapper .swiper-slide .button{
+  top:70%;
+  padding: 2rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: transparent;
+  border:none;
+  position: absolute;
+  left:5%;
+}
+
 .hero{
   margin-bottom: 2rem;
     margin-top: 0rem;
@@ -983,6 +998,11 @@ width:100%;
     width: 100%;
 
 }
+
+.home  .swiper .swiper-wrapper .swiper-slide .button{
+  font-size: 2rem;
+}
+
 
 
 .explor  .swiper .swiper-wrapper .swiper-slide img{
