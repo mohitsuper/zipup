@@ -215,7 +215,7 @@ cursor: pointer;
   padding: 0rem .5rem 0rem .5rem;
   margin:2rem 0rem 2rem 0rem;
   position: relative;
-  height: 500rem;
+  height: 50rem;
   width: 100%;
   display: flex;
   flex: wrap;
@@ -309,17 +309,21 @@ background-size: cover;
 /*------count section css-----*/
 .count .box-canter{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(40rem,5fr));
-  gap:1.5rem;
+  margin:2rem 0rem 2rem 0rem;
+  grid-template-columns:repeat(auto-fit, minmax(20rem,4fr));
+  gap:1rem;
   align-items: flex-end;
   
 
 }
 .count .box-canter .box{
-  background:var(--green);
+  background:#fff;
   display: flex;
  justify-content: center;
-  gap:1.5rem;
+  gap:1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding:2rem;
   padding-right: .5rem;
   border-radius:.5rem;
@@ -329,22 +333,20 @@ background-size: cover;
   
 }
 .count .box-canter .box ion-icon{
-  color:var(--green);
+  color:#26819D;
   font-size: 5rem;
   transition: 0.5s color;
 }
 
 .count .box-canter .box  h3{
-font-size: 3rem;
-color: #fff;
-display: flex;
-transition: 0.5s color;
+font-size: 2.5rem;
+color: #333;
+font-weight: 800;
 
 
 }
 .count .box-canter .box p{
-  font-size: 2.7rem;
-  display: flex;
+  font-size: 2.5rem;
   color: var(--light-white);
 }
 
@@ -432,7 +434,7 @@ transition: 0.5s color;
   }
   
   
-   .product-mai{
+   .product-main{
          margin-top:2rem;
          margin-bottom: 2rem;
      display:flex;
