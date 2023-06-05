@@ -213,7 +213,8 @@ cursor: pointer;
 
 .mai {
   padding: 0rem .5rem 0rem .5rem;
-  margin:2rem 0rem 2rem 0rem;
+      margin:2.5rem 0rem 2.5rem 0rem;
+
   position: relative;
   height: 50rem;
   width: 100%;
@@ -275,27 +276,21 @@ background-size: cover;
 
  .mai .row2 .item{
       height: 100%;
-      width: 50%;
-      background-image: url("img/home/explore/1.jpg");
+      width: 70%;
+      background-image: url("img/home/explore/4.jpg");
       background-position: center;
       background-size: cover;
  }
 
- .mai .row2 .item:nth-child(1) {
+ .mai .row2 .item:nth-child(2) {
    height: 100%;
    width: 70%;
-   background-image: url("img/home/explore/4.jpg");
+   background-image: url("img/home/explore/1.jpg");
    background-position: center;
    background-size: cover;
  }
  
- .mai .row2 .item:nth-child(2){
-      height: 100%;
-      width: 100%;
-      background-image: url("img/home/explore/1.jpg");
-      background-position: center;
-      background-size: cover;
- }
+
  .mai .row2 .item1{
    height: 100%;
    width: 100%;
@@ -456,7 +451,6 @@ justify-content: center;
   align-items: center;
 
     padding: 1rem;
-    box-shadow: 0rem 0rem 0.5rem .1rem #ccc;
   }
 
   .product-main .pro-item .img img{
@@ -507,14 +501,14 @@ justify-content: center;
           margin-left: 1.2rem;
                }
 
-*/
 
 .benner{
   width: 100%;
   z-index: -1;
+  margin:20rem 0rem 2.5rem 0rem;
   text-align: center;
-      background-image: url("images/bennar/b2.jpg");
   height: 25rem;
+  background: #eee;
   background-size: cover;
   justify-content: center;
   align-items: center;

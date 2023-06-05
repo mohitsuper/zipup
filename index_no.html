@@ -27,31 +27,38 @@
         }*/
         
 .main{
-  height: 500px;
+  height: 100vh;
   width:100%;
   display: flex;
   flex:wrap;
-  flex-direction: column;
+  
+  flex-direction: row;
 gap:15px;
 }
 
-.main div{
+.main .item{
   display: flex;
-  height: 250px;
+  height: 125px;
   width: 100%;
+  background: #eee;
   flex-direction: row;
-  gap:15px;
+  gap:5px;
 }
 
-.main div:nth-child(1){
-    flex-direction: row-reverse;
+.main .item .box-1 span{
+display: flex;
+font-size: 25px;
+flex-basis: 50%;
+  background: #fff;
 
 }
 
-.main div .item{
-    height:100%;
-    width: 70%;
-      background: red;
+.main  .item .box-2{
+display: flex;
+  background: #fff;
+flex-basis: 50%;
+
+flex-direction: column;
     
 
 }
@@ -67,7 +74,7 @@ gap:15px;
 </head>
 
 <body>
-<div class="main">
+<!--<div class="main">
   <div>
       <div class="item">
     
@@ -91,8 +98,49 @@ gap:15px;
       </div>
   </div>
 
+
+</div>-->
+
+<div class="main">
+  <div class="item">
+    <div class="box-1">
+      <span>&#8833;</span>
+    </div>
+    <div class="box-2">
+      <h3>free delever</h3>
+      <p>only first order affter paid 40 &#8888;</p>
+    </div>
+  </div>
+    <div class="item">
+    <div class="box-1">
+      <span>&#8833;</span>
+    </div>
+    <div class="box-2">
+      <h3>free delever</h3>
+      <p>only first order affter paid 40 &#8888;</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="box-1">
+      <span>&#8833;</span>
+    </div>
+    <div class="box-2">
+      <h3>free delever</h3>
+      <p>only first order affter paid 40 &#8888;</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="box-1">
+      <span>&#8833;</span>
+    </div>
+    <div class="box-2">
+      <h3>free delever</h3>
+      <p>only first order affter paid 40 &#8888;</p>
+    </div>
+  </div>
 
 </div>
+
 </body>
 
 </html>
