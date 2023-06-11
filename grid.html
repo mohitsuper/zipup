@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 15rem;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    width:100%;
+  }
+  
+  .grid-item {
+    background-color: #f2f2f2;
+    height: 13rem;
+    border-radius: 15px;
+    transition: 0.5s;
+    animation: anime 10s alternate infinite;
+
+  }
+    .grid-item:nth-child(1){
+      background: url("img/1.jpg");
+          background-size: cover;
+          background-position: bottom;
+    }
+    .grid-item:nth-child(2){
+      background: url("img/2.jpg");
+          background-size: cover;
+          background-position: bottom;
+    }
+    .grid-item:nth-child(3){
+      background: url("img/3.jpg");
+          background-size: cover;
+          background-position: bottom;
+    }
+    
+    .grid-item:nth-child(3) .text-btu .btu ,  .grid-item:nth-child(4) .text-btu .btu {
+      width:70%;
+    }
+
+
+    .grid-item:nth-child(4){
+      background: url("img/4.jpg");
+          background-size: cover;
+          background-position: bottom;
+    }
+    .grid-item:nth-child(5){
+      background: url("img/5.jpg");
+          background-size: cover;
+          background-position: bottom;
+    }
+    .grid-item:nth-child(6){
+      background: url("img/6.jpg");
+          background-size: cover;
+          background-position: bottom;
+    }
+
+
+
+
+@keyframes anime{
+  to{
+    background-position: top;
+  }
+  
+   form {
+      background-position: bottom;
+    }
+}
+  .span-item {
+    grid-column: span 2;
+  }
+  
+    .span-item .text{
+      font-size: 30px;
+    }
+
+  
+  .text-btu{
+    z-index: 1;
+    text-transform:  capitalize;
+    font-size: 10px;
+    position: relative;
+    top:30px;
+    text-align: left;
+    left:4px;
+    height: 50%;
+    width: 50%;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  
+  .text-btu h1{
+        font-size: 15px;
+    font-weight: 1000;
+        margin:5px;
+
+    
+
+  }
+  .text-btu h3{
+ margin:0px 0px 5px 5px;
+    color: #444;
+  }
+
+   .text-btu .btu {
+     color: #333;
+     border: none;
+     background: #fff;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     width:100%;
+   }
+  @media (max-width:540px){
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+      }
+
+
+  }
+
+</style>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+  </div>
+  <div class="grid-item">    <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+</div>
+  <div class="grid-item span-item">    <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+</div>
+  <div class="grid-item span-item">    <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+</div>
+  <div class="grid-item">    <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+</div>
+  <div class="grid-item">
+        <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+
+  </div>
+</div>
+
+</body>
+
+</html>
