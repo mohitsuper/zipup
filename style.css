@@ -317,9 +317,7 @@ background-size: cover;
 
 }
 .count .box-canter .box{
-  background:#fff;
-/*  box-shadow: 0rem 0rem 1rem .1rem #aaa;*/
-background: #eee;
+  background:#eee;
  justify-content: center;
   gap:1rem;
   display: flex;
@@ -333,9 +331,8 @@ background: #eee;
   
   
 }
-.count .box-canter .box div{
- flex-basis: 40%;
-  color:#4B9EC9;
+.count .box-canter .box div ion-icon{
+  color:#D02A2A;
   display: flex;
   font-size: 5rem;
   transition: 0.5s color;
@@ -343,7 +340,7 @@ background: #eee;
 .count .box-canter .box  .row-2 {
   display: flex;
   flex-direction: column;
-   flex-basis: 55%;
+   flex-basis: 60%;
 
 }
 .count .box-canter .box  .row-2 h3{
@@ -1226,8 +1223,8 @@ padding-right: 5rem;
 
  .swiper .swiper-slide .button{
   position: absolute;
-  bottom: 13rem;
-  left:11.2rem;
+  bottom:12rem;
+  left:5rem;
   padding: 1rem;
   border-radius: 2rem;
   width:15rem;
@@ -1242,9 +1239,9 @@ padding-right: 5rem;
   cursor: pointer;
   color:black;
     padding:1rem 2rem;
-  font-size: 1.8rem;
+  font-size: 1rem;
   text-align: center;
-  border :1px solid black;
+  border :.2rem solid black;
  transition: 0.5s background,0.5s color,0.5s box-shadow;
    text-decoration:none;
 
@@ -1980,11 +1977,11 @@ margin-top:0;
  .swiper .swiper-slide .button
  {
    position: absolute;
-   bottom: 6rem;
-   left: 5rem;
+   bottom: 4rem;
+   left: 4rem;
    padding: .8rem;
    border-radius: 2rem;
-   width: 10rem;
+   width: 15rem;
    font-size: 1rem;
 
  }
