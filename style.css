@@ -183,7 +183,7 @@ cursor: pointer;
   margin-top: 8.5rem;
 }
 
-.home  .swiper .swiper-wrapper .swiper-slide .button{
+.home  .swiper .swiper-wrapper .swiper-slide .btu{
   top:70%;
   padding: 2rem;
   font-size: 2rem;
@@ -521,7 +521,7 @@ height: 100%;
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr)22rem;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 25rem 25rem;
     gap: 15px;
     width:100%;
   font-family: 'League Spartan', sans-serif;
@@ -529,10 +529,10 @@ height: 100%;
   
   .grid-item {
     background-color: #f2f2f2;
-    height: 23rem;
     border-radius: 15px;
+    height: 100%;
     transition: 0.5s;
-    animation: anime 10s alternate infinite;
+    animation: anime 5s alternate infinite;
 
   }
     .grid-item:nth-child(1){
@@ -631,10 +631,11 @@ height: 100%;
 
   }
 
-   .text-btu .btu {
+   .btu {
      color: #333;
      border: none;
      font-size: 1rem;
+     font-weight:800;
      background: #fff;
      border-radius: 15px;
      display: flex;
@@ -644,10 +645,11 @@ height: 100%;
      width:70%;
    }
 
-.text-btu .btu:hover{
-  border: 1px solid #fff;
+.btu:hover{
+  border: .2rem solid #fff;
   background: transparent;
   color: #fff;
+  
 }
 
 
@@ -1993,6 +1995,11 @@ margin-top:0;
         gap: 10px;
         width: 100%;
       }
+      
+  .span-item {
+    grid-column: span 2;
+  }
+
       
   .benner{
     height: 20rem;
