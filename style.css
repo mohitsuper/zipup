@@ -343,7 +343,7 @@ background: #eee;
 .count .box-canter .box  .row-2 {
   display: flex;
   flex-direction: column;
-   flex-basis: 60%;
+   flex-basis: 55%;
 
 }
 .count .box-canter .box  .row-2 h3{
