@@ -310,8 +310,7 @@ background-size: cover;
 .count .box-canter{
   display:grid;
   margin:2rem 0rem 2rem 0rem;
-/*  grid-template-columns:repeat(auto-fit, minmax(20rem,4fr));*/
-grid-template-columns: repeat(3,1fr);
+  grid-template-columns:repeat(auto-fit, minmax(27rem,1fr));
   gap:1rem;
   align-items: flex-end;
   
@@ -319,9 +318,8 @@ grid-template-columns: repeat(3,1fr);
 }
 .count .box-canter .box{
   background:#fff;
-  box-shadow: 0rem 0rem 1rem .1rem #aaa;
-  height: 11rem;
-  display: flex;
+/*  box-shadow: 0rem 0rem 1rem .1rem #aaa;*/
+background: #eee;
  justify-content: center;
   gap:1rem;
   display: flex;
@@ -335,24 +333,31 @@ grid-template-columns: repeat(3,1fr);
   
   
 }
-.count .box-canter .box ion-icon{
+.count .box-canter .box div{
+ flex-basis: 40%;
   color:#4B9EC9;
+  display: flex;
   font-size: 5rem;
   transition: 0.5s color;
 }
+.count .box-canter .box  .row-2 {
+  display: flex;
+  flex-direction: column;
+   flex-basis: 60%;
 
-.count .box-canter .box  h3{
-font-size: 2.5rem;
+}
+.count .box-canter .box  .row-2 h3{
+font-size: 2rem;
 color: #333;
 font-weight: 800;
 
 
 }
-.count .box-canter .box p{
-  font-size: 2rem;
+.count .box-canter .box .row-2 p{
+  font-size: 1.3rem;
   font-weight: 300;
 
-  color: var(--light-white);
+  color: #333;
 }
 
 /*------count section css end-----*/
