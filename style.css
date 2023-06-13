@@ -1,4 +1,7 @@
-  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
+  /*@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');*/
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=League+Spartan:wght@800&display=swap');
 
 
 
@@ -7,11 +10,13 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-family: 'popiens',sans-serif;
+  /*font-family: 'popiens',sans-serif;*/
+  font-family: 'Geologica', sans-serif;
+/*font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;*/
   text-decoration:none;
   transition: 0.2s;
   border-radius: .5rem;
-  font-family: 'League Spartan', sans-serif;
     text-transform: capitalize;
 
 }
