@@ -307,9 +307,13 @@ background-size: cover;
 
 
 /*------count section css-----*/
+.count{
+  margin:2rem 0rem 2rem 0rem;
+  padding: 0rem 2rem 0rem 2rem;
+width:100%;
+}
 .count .box-canter{
   display:grid;
-  margin:2rem 0rem 2rem 0rem;
   grid-template-columns:repeat(auto-fit, minmax(27rem,1fr));
   gap:1rem;
   align-items: flex-end;
@@ -317,8 +321,9 @@ background-size: cover;
 
 }
 .count .box-canter .box{
-  background:#eee;
  justify-content: center;
+   box-shadow: 0rem 0rem 1rem .1rem #eee;
+background: #fff;
   gap:1rem;
   display: flex;
   flex-direction: row;
@@ -539,7 +544,7 @@ height: 100%;
     border-radius: 15px;
     transition: 0.5s;
     height: 100%;
-    animation: anime 5s alternate infinite;
+    animation: anime 3s alternate infinite;
 
   }
     .grid-item:nth-child(1){
