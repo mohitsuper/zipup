@@ -314,58 +314,61 @@ background-size: cover;
 /*------count section css-----*/
 .count{
   margin:2rem 0rem 2rem 0rem;
-  padding: 0rem 2rem 0rem 2rem;
 width:100%;
 }
 .count .box-canter{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(27rem,1fr));
-  gap:1rem;
+  grid-template-columns:repeat(auto-fit, minmax(24rem,1fr));
+  grid-gap:.5rem .5rem;
   align-items: flex-end;
   
 
 }
 .count .box-canter .box{
- justify-content: center;
+  margin: 0;
    box-shadow: 0rem 0rem 1rem .1rem #eee;
 background: #fff;
-  gap:1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding:2rem;
-  padding-right: .5rem;
   border-radius:.5rem;
-  align-content: center;
   transition: 0.5s transform,0.5s background;
   
   
 }
+
+.count .box-canter .box div {
+    display: flex;
+   flex-basis: 40%;
+
+ justify-content: center;
+align-items: center;
+}
 .count .box-canter .box div ion-icon{
   color:#D02A2A;
-  display: flex;
   font-size: 5rem;
   transition: 0.5s color;
 }
 .count .box-canter .box  .row-2 {
   display: flex;
   flex-direction: column;
-   flex-basis: 60%;
+   flex-basis: 55%;
 
 }
 .count .box-canter .box  .row-2 h3{
-font-size: 2rem;
+font-size: 1.5rem;
 color: #333;
 font-weight: 800;
 
 
 }
 .count .box-canter .box .row-2 p{
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 300;
-
-  color: #333;
+  color: #555;
 }
+
 
 /*------count section css end-----*/
 
