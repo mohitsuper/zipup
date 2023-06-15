@@ -329,9 +329,12 @@ width:100%;
    box-shadow: 0rem 0rem 1rem .1rem #eee;
 background: #fff;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   padding:2rem;
+  gap: 1rem;
   border-radius:.5rem;
   transition: 0.5s transform,0.5s background;
   
@@ -342,8 +345,6 @@ background: #fff;
     display: flex;
    flex-basis: 40%;
 
- justify-content: center;
-align-items: center;
 }
 .count .box-canter .box div ion-icon{
   color:#D02A2A;
@@ -356,7 +357,7 @@ align-items: center;
    flex-basis: 55%;
 
 }
-.count .box-canter .box  .row-2 h3{
+.count .box-canter .box .row-2 h3{
 font-size: 1.5rem;
 color: #333;
 font-weight: 800;
@@ -674,6 +675,61 @@ height: 100%;
 
 
 /*----------for css end---------*/
+.benner-1{
+  margin: 2rem 0rem 2rem 0rem;
+}
+ 
+.benner-1 .cantener{
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  flex-direction: row;
+  flex-wrap :wrap;*/
+  display: grid;
+    background: #333;
+
+  grid-template-columns: repeat(3,1fr);
+}
+
+.cantener .img{
+background-size: cover;
+  background-position: top;
+height: 100%;
+width:60%;
+      animation: img 7s forwards infinite;
+      
+      
+}
+@keyframes img{
+  0%{
+background-size: cover;
+    background: url("img/home/none-bg/1.jpg");
+
+  }
+  
+   25% {
+     background: url("img/home/none-bg/4.jpg");
+ background-size: cover;
+
+   } 
+   50% {
+       background: url("img/home/none-bg/3.jpg");
+   background-size: cover;
+
+     }  
+     75% {
+  background: url("img/home/none-bg/2.jpg");
+     background-size: cover;
+
+       }
+       
+     100%{
+         background: url("img/home/none-bg/1.jpg");
+
+     }
+
+}
 
 .benner{
   width: 100%;
@@ -684,6 +740,17 @@ height: 100%;
   background-position: center;
 
 }
+.benner-1{
+  width: 100%;
+  margin:2.5rem 0rem 2.5rem 0rem;
+  height:40rem ;
+  /*background:url("img/home/bennar/4.jpg");*/
+  background: #000;
+  background-size: cover;
+  background-position: center;
+
+}
+
 .benner {
   position: relative;
   width: 100%;
@@ -691,6 +758,7 @@ height: 100%;
 }
 
 .benner  .cantener{
+  
   text-align: center;
   top:20%;
   color:#fff;

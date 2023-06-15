@@ -27,7 +27,6 @@
         }*/
         
 .main{
-  height: 100vh;
   width:100%;
   display: flex;
   flex:wrap;
@@ -70,6 +69,137 @@ flex-direction: column;
   background: red;
 
 }
+
+.benner-1{
+  margin: 2rem 0rem 2rem 0rem;
+}
+ 
+.cantener{
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  flex-direction: row;
+  flex-wrap :wrap;*/
+  display: grid;
+    background: #333;
+
+  grid-template-columns: repeat(3,1fr);
+}
+
+.cantener .img{
+background-size: cover;
+  background-position: top;
+height: 100%;
+width:60%;
+      animation: img 7s forwards infinite;
+      
+      
+}
+@keyframes img{
+  0%{
+background-size: cover;
+    background: url("img/home/none-bg/1.jpg");
+
+  }
+  
+   25% {
+     background: url("img/home/none-bg/4.jpg");
+ background-size: cover;
+
+   } 
+   50% {
+       background: url("img/home/none-bg/3.jpg");
+   background-size: cover;
+
+     }  
+     75% {
+  background: url("img/home/none-bg/2.jpg");
+     background-size: cover;
+
+       }
+       
+     100%{
+         background: url("img/home/none-bg/1.jpg");
+
+     }
+
+}
+
+
+ .cantener .text-btu {
+   width:100%;
+   height: 100%;
+   padding-left: 1rem;
+
+   
+ }
+
+ .cantener .text-btu .btu {
+   width:30%;
+   background: #ddd;
+   margin-top: 1rem;
+ }
+
+  .text-btu {
+    font-family: 'League Spartan', sans-serif;
+
+    z-index: 1;
+    text-transform: capitalize;
+    font-size: 10px;
+    position: relative;
+    top: 30px;
+    text-align: left;
+    left: 4px;
+    height: 50%;
+    width: 50%;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+  }
+
+  .text-btu h1 {
+    font-family: 'League Spartan', sans-serif;
+
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin: 5px;
+
+
+
+  }
+
+  .text-btu h3 {
+    margin: 0px 0px 5px 5px;
+    color: #444;
+    font-weight: 700;
+
+    font-size: 1.5rem;
+
+  }
+
+  .btu {
+    color: #333;
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    width: 70%;
+  }
+
+  .btu:hover {
+    border: .2rem solid #fff;
+    background: transparent;
+    color: #fff;
+
+  }
+
   </style>
 </head>
 
@@ -145,6 +275,32 @@ flex-direction: column;
 
 </div>
 
-</body>
+<section class="benner-1">
+  <div class="cantener">
+        <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+      <button class="btu" type="submit">shop now</button>
+    </div>
+    <div class="img">
+      
+    </div>
+     <div class="text-btu">
+      <h1>summer anime t-shirt</h1>
+      <h3>sale 50% off</h3>
+    </div>
 
+  </div>
+  
+
+</section>
+
+
+</body>
+<script>
+  var images = document.getElementById('img');
+  
+ setInterval(()=>{
+  },1000);
+</script>
 </html>
