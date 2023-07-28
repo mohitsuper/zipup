@@ -66,7 +66,7 @@ section{
 
 }
 
-/*header{
+header{
   margin-bottom: 0rem;
   margin-top: 0;
   display: flex;
@@ -124,10 +124,10 @@ content: '';
   color:white;
   bottom: 0rem;
   transition: 0.5s;
-}*/
+}
 
 /*------*/
-/*nav a:hover::after , nav a.active::after{
+nav a:hover::after , nav a.active::after{
   width: 100%;
   font-weight: 500;
 }
@@ -141,7 +141,7 @@ content: '';
 
 .form{
   height: 5rem;
-}*/
+}
 
 
 
@@ -181,102 +181,6 @@ cursor: pointer;
   background: #fff;
   border-bottom: 1px solid #333;
 }*/
-
-.header .flex{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-.header{
-position: flex;
-top:0;
-left:0;
-border-top-left-radius:0;
-right: 0;
-z-index: 1000;
-background-color:var(--light-bg);
-position:fixed;
-
-}
-.header .flex .navbar{
-    font-size: 2.5rem;
-    color:var(--black);
-}
-.header .flex .logo{
-  font-weight: 400;
-  font-size: 3rem;
-  color:var(--white);
-}
-
-.header .flex .logo span{
-  color:var(--creem);
-}
-
-.header .flex .navbar a{
-  margin-left:2rem;
-  color:var(--light-white);
-  font-size: 1.3rem;
-  transition: 0.5s color;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  
-}
-.header .flex .navbar .menu{
-  display: none;}
-
-
-
-.header .flex .navbar a:hover{
-  color:var(--creem);
-}
-
-
-#menu-btu{
-  display:none;
-  cursor:pointer;
-  font-size: 5rem;
-  color:var(--white);
-}
-
-
-/*------------sider page css-----------*/
-.home  .swiper .swiper-wrapper .swiper-slide img{
-  position: relative;
-  margin-top: 8.5rem;
-}
-
-.home  .swiper .swiper-wrapper .swiper-slide .btu{
-  top:70%;
-  padding: 2rem;
-  font-size: 2rem;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  color: transparent;
-  border:none;
-  position: absolute;
-  left:5%;
-}
-
-.hero{
-  margin-bottom: 2rem;
-    margin-top: 0rem;
-  z-index: -1;
-
-  background-image: url("img/hero4.png");
-  height: 50rem;
-  
-  width:100%;
-  background-repeat: none;
-  background-size: cover;
-  padding: 6rem  2.5rem ;
-  background-position: top 25% right 0;
-  
-}
 
 
 /*--------explore now css---------*/
