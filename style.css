@@ -66,7 +66,7 @@ section{
 
 }
 
-header{
+/*header{
   margin-bottom: 0rem;
   margin-top: 0;
   display: flex;
@@ -124,10 +124,10 @@ content: '';
   color:white;
   bottom: 0rem;
   transition: 0.5s;
-}
+}*/
 
 /*------*/
-nav a:hover::after , nav a.active::after{
+/*nav a:hover::after , nav a.active::after{
   width: 100%;
   font-weight: 500;
 }
@@ -141,7 +141,7 @@ nav a:hover::after , nav a.active::after{
 
 .form{
   height: 5rem;
-}
+}*/
 
 
 
@@ -181,6 +181,67 @@ cursor: pointer;
   background: #fff;
   border-bottom: 1px solid #333;
 }*/
+
+.header .flex{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header{
+position: flex;
+top:0;
+left:0;
+border-top-left-radius:0;
+right: 0;
+z-index: 1000;
+background-color:var(--light-bg);
+position:fixed;
+
+}
+.header .flex .navbar{
+    font-size: 2.5rem;
+    color:var(--black);
+}
+.header .flex .logo{
+  font-weight: 400;
+  font-size: 3rem;
+  color:var(--white);
+}
+
+.header .flex .logo span{
+  color:var(--creem);
+}
+
+.header .flex .navbar a{
+  margin-left:2rem;
+  color:var(--light-white);
+  font-size: 1.3rem;
+  transition: 0.5s color;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  
+}
+.header .flex .navbar .menu{
+  display: none;}
+
+
+
+.header .flex .navbar a:hover{
+  color:var(--creem);
+}
+
+
+#menu-btu{
+  display:none;
+  cursor:pointer;
+  font-size: 5rem;
+  color:var(--white);
+}
+
 
 /*------------sider page css-----------*/
 .home  .swiper .swiper-wrapper .swiper-slide img{
@@ -1599,12 +1660,12 @@ cursor: pointer;
 
 }
 .contact   form .radio lable input:cliked{
-color:var(--green);}
+color:var(--creem);}
 
 .contact form .radio input{
 width: 2rem;
 height: 2rem;
-color: var(--green);
+color: var(--creem);
 cursor: pointer;
   
 }
@@ -1908,18 +1969,18 @@ nav{
 }
 
 
-
-.navbar-big{
-  width:50% ;
-  height: 100vh;
-  background:#fff;
+.navbar{
+  width: 100%;
+  height: 70vh;
+  background:var(--light-bg);
   top:0;
-  
-  right:-30rem;
+  text-align: center;
+  right: -80rem;
   position: fixed;
   padding-top:5rem;
   
 }
+
 
   
 nav a::after{
