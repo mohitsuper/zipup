@@ -81,40 +81,35 @@
 <body>
 
 
+<header class="header">
+    <section class="flex">
+      <a href="#home"><h1 class="logo">Mohit<span>Vijay</span></h1></a>
+      <nav class="navbar" id="sidemenu">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#mywork">mywrok</a>
+        <a href="#expries">expries </a>
+          <a href="#contact">contact</a>
 
-
-
-
-
-  <section class="main" id="main">
-    <header>
-       <h1 class="logo">zipup.</h1>
-
-      <nav class="navbar-big" id="sidemenu">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-       <a href="shop.html">shop</a>
-        <a href="blog.html">blogs</a>
-        <a href="video.html">Video</a>
-        <a href="contect.html">Contect</a>
-        
-
-       
-     <form class="d-flex" role="search">
+    <form class="d-flex" role="search">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">search</button>
     </form>
 
-      <ion-icon name="close-outline" onclick="openemenu()" id="menu-btu"></ion-icon>
+        
+          <ion-icon name="close-outline" onclick="closemenu()" id="menu-btu"></ion-icon>
 
       </nav>
-    
-    <ion-icon name="menu-outline" onclick="closemenu()" id="menu-btu"></ion-icon>
+     <ion-icon name="menu-outline" onclick="openemenu()" id="menu-btu"></ion-icon>
 
+    </section>
     
-    </header>
-  </section>
+  </header>
   
+
+
+
+
   <section id="home" class="home">
     <div class="swiper mySwiper">
     <div class="swiper-wrapper">
